@@ -14,3 +14,10 @@
  	border: 1px solid black;
  	margin: 25px;
  }
+
+ /* 3. Use n-child to 1px border around
+ even section elements in article element */
+
+ .n-child section:nth-child(2n+1) {
+ 	border: 1px solid blue;
+ }
