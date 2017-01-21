@@ -1,0 +1,8 @@
+/* 1.change li items to display inline
+ and rmeove bullet points */
+
+ .block {
+ 	display: inline;
+ 	list-style-type: none;
+
+ }
