@@ -1,8 +1,16 @@
-/* 1.change li items to display inline
+/* 1. change li items to display inline
  and rmeove bullet points */
 
  .block {
  	display: inline;
  	list-style-type: none;
+ }
 
+ /* 2. Display 3 spans as block with 1px 
+ border and 25px margin. */
+
+ .inline {
+ 	display: block;
+ 	border: 1px solid black;
+ 	margin: 25px;
  }
